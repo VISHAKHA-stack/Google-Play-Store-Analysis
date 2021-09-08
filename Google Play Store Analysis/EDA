@@ -1,0 +1,34 @@
+Introduction about Dataset:
+
+The dataset contains details of Android applications present on Google Play. The dataset is extracted from Kaggle link. For analysis of the mentioned data, three we have used R and published an HTML report in rpubs. Our business case is to locate the best Apps, which we measure by Review check. There are 13 includes that depict each application and an aggregate of 10841 applications. Following variables were initially included:
+
+Table Header   |	Second Header
+
+App            |	Name of the  App
+
+Category       |  Category of the app
+
+Rating	       |  Over all user rating of the app out of 5 on teh Play Store
+
+Reviews        |	Number of user reviews for the app
+
+Size           |	Size of app
+
+Installs       | Number of user downloads/installs for the app
+
+Type	       | Paid or Free
+
+Price          | Cost of the App
+
+Content Rating | Age group the aoo is targeted at
+
+Genres         | An app can belong to multiple genres (apart from its main category)
+
+Last updated   | Date when the app was last updated on Play Store
+
+Current Ver    | Current version of the app available on Play Store
+
+Android Ver    | Minimum required Android Version
+
+
+I imported this data from csv using read.csv function. Initially my dataset had 10841 observation and 13 variables.
